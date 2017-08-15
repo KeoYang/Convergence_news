@@ -10,7 +10,7 @@ from datetime import datetime
 # cli = pymongo.MongoClient('10.9.201.190', 27017)
 cli = pymongo.MongoClient('localhost', 9666)
 db = cli.guangdian
-db.authenticate("gduser_dev10", "Passw0rd&234$")
+db.authenticate("gduser_dev", "Password")
 
 def time_to_update(update_datetime):
     if (datetime.now() - update_datetime).seconds<280:
