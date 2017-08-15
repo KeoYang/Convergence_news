@@ -7,7 +7,7 @@ import time
 import codecs
 from datetime import datetime
 
-# cli = pymongo.MongoClient('10.9.201.190', 27017)
+# cli = pymongo.MongoClient('10.9.201.20', 27017)
 cli = pymongo.MongoClient('localhost', 9666)
 db = cli.guangdian
 db.authenticate("gduser_dev", "Password")
